@@ -1,5 +1,9 @@
 body {background: black;
-     color:red;}
+     color:red;
+     font-size:20px;
+     font-family: tahoma;
+
+}
 input {background: white; 
        background-color: white; 
   
@@ -10,7 +14,7 @@ a {color: red;}
 
 h1 {text-align: center;}
 
-video {background-image: red;}
+
 
 
 
