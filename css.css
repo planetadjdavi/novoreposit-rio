@@ -1,18 +1,32 @@
+
+*{padding: 10; margin: 10; color: aqua; }
+
+
+h1 {color: blue; font-size: 60px; font-family: tahoma;}
+
+legend{ color: brown;}
+
 body {background: black;
      color:red;
      font-size:20px;
-     font-family: tahoma;
+     font-family: tahoma;}
 
-}
-input {background: white; 
-       background-color: white; 
-  
-    }
+     
+
+input[type=text]{  width: 200px; background-color:rgb(95, 95, 126); height: 35px; border: none;}
+
+input[type=email]{ background-color:#ccc; font-size: 20px; border: none  }
 
 
+input[type=password]{ background: #ccc; font-size: 20px; border: none  }
 a {color: red;}
 
-h1 {text-align: center;}
+
+
+input[type=submit]{cursor: pointer; background-color: yellow;}
+
+
+
 
 
 
