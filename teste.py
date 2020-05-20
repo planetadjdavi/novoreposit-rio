@@ -1,12 +1,5 @@
-a=1
-b=2
-c=3
-d=a+b+c
-
-print(a)
-
-print(b)
+a=10
+b=5
+c=a*b
 
 print(c)
-
-print(d)

@@ -1,15 +1,27 @@
 
-*{padding: 10; margin: 10; color: aqua; }
+*{padding: 10; margin: 10; color: aqua; background: black; }
 
 
-h1 {color: blue; font-size: 60px; font-family: tahoma;}
+mark {text-decoration: underline; color: red; background: yellowgreen; }
 
-legend{ color: brown;}
+#imagem {height: 500px;   background: red;}
 
-body {background: black;
-     color:red;
+img {height: 500px; margin-bottom: 100px; background: red; }
+
+#h1 { text-decoration: overline;  text-align: left;
+      color:aqua; background: blueviolet;
+     font-family: tahoma; box-shadow:  green 10px 10px;
+ width: 1400px;
+}
+
+
+
+body { 
      font-size:20px;
-     font-family: tahoma;}
+     font-family: tahoma;
+
+
+}
 
      
 
@@ -23,7 +35,7 @@ a {color: red;}
 
 
 
-input[type=submit]{cursor: pointer; background-color: yellow;}
+
 
 
 
