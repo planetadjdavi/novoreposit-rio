@@ -1,0 +1,36 @@
+
+Aula 11:
+
+ls -a : lista arquivos ocultos
+ls -t: Lista última ordem de modificação
+ls -g : oculta usuário do arquivo
+ls -g -G: oculta usuário e proprietário
+ls -R: lista conteúod dos diretórios
+ls -m: divide arquivos por virgulas
+ls -l *.txt: lista apenas arquivos de texto
+
+
+cp 1.txt /home/ubuntu/Deskotp : copia arquivo para diretório
+mv 1.txt /home/ubuntu/Deskotp : move arquivo para diretório
+
+ls Desktop: lista arquivos de dentro do diretório
+
+cp *.txt /diretório: copia todos os arquivos txt para o diretório
+
+rm 1.txt: Apaga o arquivo selecionado
+rm *.txt : Apaga todos os arquivos txt
+rm -r diretório: remove o diretório e os arquivos que estão no interio
+
+Aula 12: 
+
+
+echo "texto " > arquivo.txt : escreve o texto em parenteses no arquivo texto.
+echo "texto " > arquivo.txt: cria arquivo e já escreve dentro dele
+cat 1.txt: Lê o arquivo escrito dentro do terminal
+
+echo "texto" >> texto.txt: ele adiciona um novo texto ao já escrito.
+
+> arquivo.txt: cria arquivo 
+
+
+ls-l > arquivo.txt: coloca no arquivo texto a execução do comando ls-l

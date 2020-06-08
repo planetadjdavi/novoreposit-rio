@@ -1,0 +1,66 @@
+Cat5e  "e" > atingir uma melhor velocidade
+
+telefonia , 
+Cat6 mil mega bits
+
+office network
+
+
+
+longas distÂncias
+cabo de fibra ótica
+80 km
+
+multimodo: utilizam leds e passam diversos spectros de luz , utilizado em redes locais e chega de 300m a 2km
+
+monomodo:utilizados em distÂncias longas como 80 km eum único spectro pode chegar a 100 mil mega bits
+
+....................
+wpan
+wlan
+wman
+wwan
+
+
+padrão ethernet
+
+padrão gigaethernet
+
+................................
+
+porta de rede: mac adresse é a porta que conecta o dispositivo
+
+interface de rede: está associado a capacidade de ligar redes e está associada a switchs da camada 3 no modelo osi ou 2 no tcp
+
+
+hub: é um domínio de colisão inteiro e manda a mesma informação para todos. Todas as portas mandam o mesmo. domínio de broadcast
+swicth: o domínio de colisão é por porta , diminuindo. As portas são lógicas.
+
+gateway é oq liga redes diferentes , vc está  em uma rede ai liga a outra rede totalmente diferente.
+
+
+........................................
+
+modelo de rede de hierarquia
+acesso: É a porta incial de acesso , são swicths que efetuam as conexões
+distribuição: faz o roteamento entre as camadas de acesso
+núcleo: fazer o "roteamento rápido" dos acessoas aos recursos principais da rede- É aplicado políticas de segurança e acesso a servidores.
+
+
+redundÂncia da rede de hierarquia:
+quando um dispositivo se manter indisponível na rede automaticamente outro irá subestituir como rota
+
+
+load balance(LB): vc pode balancear os links de acesso, tipo ter outros links de acesso as outras camadas de distribuição, não apenas um
+higth avalibility(HA): quando vc tem a dispobinibilidade 
+
+
+..............................................
+
+topologias de rede
+barramento: uma linha de computadores conectados em uma barra por um RJ58  - ou conector BNC onde se um for desconectado no meio, 
+todos seriam prejudicados
+estrela: - concentrador de rede o hub no centro se conseguiu aumentar a rede sem parar ela inteira como no barramento, mas infelizmente gerando várias
+colisões.
+topologia em estrela com bridge: começo a se utilizar o hub e uma participação entre bridges do mac adresse
+topologia em estrela swicth: com a utilização dos swicths e a comunicação era fullduplex
